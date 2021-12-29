@@ -125,14 +125,12 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: #2582B3;
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: #66CC21;
 }
 
 #center-about {    
@@ -180,7 +178,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background-image: url('../images/ethos-center-image.jpg') norepeat center center;
+    background: url('../images/ethos-center-image.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
