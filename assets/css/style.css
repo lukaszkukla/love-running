@@ -313,4 +313,24 @@ footer {
     .left-about-heading p, .right-about-heading p {
         padding: 0 20px;
     }
+
+    #photos {
+        column-count: 3;
+    }
+}
+
+/* for small screen sizes 800px and down */
+
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
+}
+
+/* for tiny screen sizes 450px and down */
+
+@media screen and (max-width: 450px) {
+    #photos {
+        column-count: 1;
+    }
 }
